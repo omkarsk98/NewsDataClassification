@@ -1,3 +1,6 @@
+# Objective
+Classify News Titles into categories like business, technology, etc using pretained google's word2vec model and applying logistic regression.
+
 # Dataset
 
 Raw data set can be downloaded from the link below. <br>
@@ -19,11 +22,12 @@ The records have a 300 dimensional vector for each title and its respective labe
 Shape of Features is 50000\*300 and shape of labels is 50000\*times.
 The ratio of train:test set is 4:1. i.e. 40,000 records used for training the model and 10,000 records used for validation of the model.
 
+# Results
 Outcomes the logistic regression model are as follows. <br>
 
 | Train  | Test  | Dimensions | Accuracy | Time(sec) |        Comments        |
 | :----: | :---: | :--------: | :------: | :-------: | :--------------------: |
-| 40000  | 10000 |    300     |    85    |    12     | Data randomly shuffled |
+| 40000  | 10000 |    300     |    86    |    12     | Data randomly shuffled |
 | 80000  | 20000 |    300     |    78    |    53     |      Not shuffled      |
 | 40000  | 10000 |    300     |    74    |    12     |      Not shuffled      |
 | 80000  | 20000 |    300     |    78    |    53     |      Not shuffled      |
