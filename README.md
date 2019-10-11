@@ -1,5 +1,5 @@
 # Objective
-Classify News Titles into categories like business, technology, etc using pretained google's word2vec model and applying logistic regression.
+Classify news titles into categories like business, technology, etc using pretained google's word2vec model and applying logistic regression.
 
 # Dataset
 
@@ -16,10 +16,10 @@ This model is trained by google and provides a 300 dimensional vector for each w
 
 # Project Details
 
-50,000 clean records are used features. Clean records means the records are without stop words, out of vocab words, punctuation marks. These records have clean labels that belong to either of the category of b(business), t(technology), m(medicine), e(entertainment).
+50,000 clean records are used as features. Clean records means the records are without stop words, out of vocab words and punctuation marks. These records have clean labels that belong to either of the category of b(business), t(technology), m(medicine), e(entertainment).
 The records have a 300 dimensional vector for each title and its respective label has single char.
 
-Shape of Features is 50000\*300 and shape of labels is 50000\*times.
+Shape of Features is 50000\*300 and shape of labels is 50000\*1.
 The ratio of train:test set is 4:1. i.e. 40,000 records used for training the model and 10,000 records used for validation of the model.
 
 # Results
