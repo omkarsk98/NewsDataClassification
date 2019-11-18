@@ -33,3 +33,14 @@ Outcomes the logistic regression model are as follows. <br>
 | 80000  | 20000 |    300     |    78    |    53     |      Not shuffled      |
 | 24000  | 6000  |    300     |    73    |    11     |      Not shuffled      |
 | 160000 | 40000 |    300     |    72    |    53     |      Not shuffled      |
+
+Precision and Recall are as follows <br>
+For labels in sequence as ['b', 't', 'e', 'm']<br>
+precision: [82.94729775 83.25883787 89.44781729 87.46594005]<br>
+recall: [84.79752917 80.92417062 91.4843288  82.16723549]<br>
+
+ROC curves are as follows<br>
+![ROC for Business]('./ROC/business.png')
+![ROC for Business]('./ROC/technology.png')
+![ROC for Business]('./ROC/entertainment.png')
+![ROC for medicine]('./ROC/medicine.png')
