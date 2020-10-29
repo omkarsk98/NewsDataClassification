@@ -40,7 +40,7 @@ precision: [82.94729775 83.25883787 89.44781729 87.46594005]<br>
 recall: [84.79752917 80.92417062 91.4843288  82.16723549]<br>
 
 ROC curves are as follows<br>
-![ROC for Business](./ROC/business.png) <br>
-![ROC for Business](./ROC/technology.png) <br>
-![ROC for Business](./ROC/entertainment.png) <br>
-![ROC for medicine](./ROC/medicine.png) <br>
+![ROC for Business]('./ROC/business.png')
+![ROC for Business]('./ROC/technology.png')
+![ROC for Business]('./ROC/entertainment.png')
+![ROC for medicine]('./ROC/medicine.png')
